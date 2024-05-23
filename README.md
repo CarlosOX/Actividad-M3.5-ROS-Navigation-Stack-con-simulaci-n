@@ -12,3 +12,32 @@ Este proyecto tiene como objetivo demostrar la capacidad del PuzzleBot para nave
    ```bash
    git clone https://github.com/tu-equipo/nombre-del-repo.git
    cd nombre-del-repo
+
+2. **Configura el entorno de ROS:**
+   ```bash
+   source /opt/ros/noetic/setup.bash
+   source ~/catkin_ws/devel/setup.bash
+
+
+3. **Compila el workspace:**
+   ```bash
+   cd ~/catkin_ws
+   catkin_make
+
+### Ejecución de la simulación
+
+1. **Lanzar el entorno simulado en Gazebo:**
+   ```bash
+   roslaunch puzzlebot_gazebo puzzlebotwithlidar.launch
+
+2. **Ejecutar el nodo de transformaciones:**
+   ```bash
+   rosrun puzzlebot_gazebo transforms.py
+
+3. **Ejecutar el nodo de localización:**
+   ```bash
+   rosrun puzzlebot_gazebo localisation.py
+
+
+
+
