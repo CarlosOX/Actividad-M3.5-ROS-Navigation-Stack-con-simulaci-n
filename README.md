@@ -1,5 +1,15 @@
 # Proyecto de Navegación Autónoma del PuzzleBot
 
+Este proyecto es una colaboración entre los siguientes estudiantes de la Universidad:
+
+- **Salvador Santana Blanco**            A01703523
+- **Anatanael Jesus Miranda Faustino**  A01769232
+- **Diego Díaz Ayala**            A01770236
+- **Carlos Eduardo Ortega**        A01707480
+
+
+*Profesor: Juan Manuel Ledesma Rangel*
+
 ## Descripción del Proyecto
 
 Este proyecto tiene como objetivo demostrar la capacidad del PuzzleBot para navegar de manera autónoma en un entorno simulado, evitando obstáculos y alcanzando una meta específica. La navegación se realiza utilizando ROS (Robot Operating System), Gazebo y RViz.
