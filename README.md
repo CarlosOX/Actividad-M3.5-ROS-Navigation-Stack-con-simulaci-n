@@ -7,8 +7,9 @@ Este proyecto es una colaboración entre los siguientes estudiantes de la Univer
 - **Diego Díaz Ayala**            A01770236
 - **Carlos Eduardo Ortega**        A01707480
 
-
 *Profesor: Juan Manuel Ledesma Rangel*
+
+![Tec](https://brandemia.org/sites/default/files/sites/default/files/tec_monterrey_nuevo_logo.png)
 
 ## Descripción del Proyecto
 
