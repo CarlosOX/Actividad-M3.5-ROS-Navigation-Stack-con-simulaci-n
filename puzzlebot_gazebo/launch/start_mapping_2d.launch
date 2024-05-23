@@ -1,0 +1,9 @@
+<!-- Launch ROS navigation stack to start mapping our environment -->
+<launch>
+    <!--- Run gmapping -->
+    <include file="$(find puzzlebot_gazebo)/launch/nav_stack/gmapping.launch" />
+
+   
+    <include file="$(find puzzlebot_gazebo)/launch/nav_stack/odom_navigation_2d.launch" />
+
+</launch>
